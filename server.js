@@ -8,7 +8,7 @@ import Videos from './dbModel.js'
 const app = express()
 const port = process.env.PORT || 9000
 
-const connection_url = 'mongodb+srv://sZ31fer0BeVOIGSx:t0o9pox48zI38VCz@cluster0.6dsvuo5.mongodb.net/?retryWrites=true&w=majority'
+const connection_url = ''
 
 //Middleware
 app.use(express.json())
